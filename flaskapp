@@ -1,0 +1,17 @@
+from flask import Flask, request, jsonify
+import joblib
+import numpy as np
+
+app = Flask(__name__)
+model = joblib.load("random_forest_model.pkl")
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.json
+    input_array = np.array([list(data.values())])
+    prediction = model.predict(input_array)[0]
+    label = {1: 'Normal', 2: 'Suspect', 3: 'Pathological'}[prediction]
+    return jsonify({'fetal_health': int(prediction), 'label': label})
+
+if __name__ == '__main__':
+    app.run(debug=True)
