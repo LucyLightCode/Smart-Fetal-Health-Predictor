@@ -105,3 +105,13 @@ Let me know if you'd like to explore how you could potentially modify the code t
 
 This project successfully developed and evaluated several machine learning models for predicting fetal health status based on CTG data. The Random Forest model demonstrated the best overall performance, achieving high accuracy and strong generalization on unseen data, indicating its potential as a robust tool for real-time fetal health prediction. The identified key features and the deployed Streamlit interface highlight the feasibility of integrating such an AI-powered predictor into fetal monitoring systems to potentially improve clinical outcomes and resource allocation, especially in underserved regions.
 
+
+DOCUMENTRY
+✅ A dual-mode AI app (Flask + Streamlit)
+✅ Running securely inside Docker
+✅ With a 1-click smart launcher
+✅ That auto-kills ports & auto-starts Docker
+✅ And it’s 🔥 production-ready!
+
+
+
