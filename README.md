@@ -104,9 +104,12 @@ DOCUMENTRY
 ✅ A dual-mode AI app (Flask + Streamlit)
 
 The picture below shows the result of the Streamlit app
+
 ![Screenshot (28)](https://github.com/user-attachments/assets/6db3c6fd-f47e-4c21-9237-6c091f23685b)
 
+
 The picture below shows the result of the Flask app
+
 ![Screenshot (29)](https://github.com/user-attachments/assets/0148d2c5-bd91-49f4-b2a3-a23930bc07fb)
 
 
