@@ -103,7 +103,9 @@ Let me know if you'd like to explore how you could potentially modify the code t
 DOCUMENTRY
 ✅ A dual-mode AI app (Flask + Streamlit)
 
-![Screenshot (28)](https://github.com/user-attachments/assets/75ee3c00-8c27-4bc8-aa2f-da0780acffb6)
+![Screenshot (28)](https://github.com/user-attachments/assets/6db3c6fd-f47e-4c21-9237-6c091f23685b)
+
+
 
 ✅ Running securely inside Docker
 ✅ With a 1-click smart launcher
