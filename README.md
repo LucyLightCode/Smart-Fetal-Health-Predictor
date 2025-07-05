@@ -1,5 +1,8 @@
 # Smart-Fetal-Health-Predictor
 
+![pregnancy-immature-premature-labor-shown-fetus-placenta-top-uterus-umbilical-cord-uterus-bulging-60404409](https://github.com/user-attachments/assets/2094e010-731b-4b5f-bde9-5465f5e7b300)
+
+
 Study Background
 
 This project aims to develop an embedded AI-powered predictive model for fetal monitoring systems. The problem it addresses is that current fetal monitoring devices generate data requiring expert interpretation, leading to delays and inconsistent diagnoses, especially in underserved areas. The proposed solution is to integrate an AI model that analyzes real-time data to provide instant alerts for fetal health risks. The expected impact includes accelerating clinical response, empowering frontline staff, enabling remote monitoring, reducing fetal mortality, supporting timely medical decisions, and optimizing hospital resource allocation.
