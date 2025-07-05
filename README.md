@@ -1,6 +1,6 @@
 # Smart-Fetal-Health-Predictor
 
-(https://github.com/user-attachments/assets/598e06d2-6caf-4c38-bfe4-fe6102e7073a)
+![pregnancy-immature-premature-labor-shown-fetus-placenta-top-uterus-umbilical-cord-uterus-bulging-60404409](https://github.com/user-attachments/assets/5de0ed1c-f6c4-487c-a908-8bc13db8a268)
 
 
 Study Background
