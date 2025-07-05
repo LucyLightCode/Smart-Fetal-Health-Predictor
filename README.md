@@ -100,18 +100,21 @@ While the analysis and modeling steps themselves are independent of the data sou
 
 Let me know if you'd like to explore how you could potentially modify the code to load data from an online source!
 
-
-##Conclution
-
-This project successfully developed and evaluated several machine learning models for predicting fetal health status based on CTG data. The Random Forest model demonstrated the best overall performance, achieving high accuracy and strong generalization on unseen data, indicating its potential as a robust tool for real-time fetal health prediction. The identified key features and the deployed Streamlit interface highlight the feasibility of integrating such an AI-powered predictor into fetal monitoring systems to potentially improve clinical outcomes and resource allocation, especially in underserved regions.
-
-
 DOCUMENTRY
 ✅ A dual-mode AI app (Flask + Streamlit)
+
+![Screenshot (28)](https://github.com/user-attachments/assets/75ee3c00-8c27-4bc8-aa2f-da0780acffb6)
+
 ✅ Running securely inside Docker
 ✅ With a 1-click smart launcher
 ✅ That auto-kills ports & auto-starts Docker
 ✅ And it’s 🔥 production-ready!
+
+
+
+##Conclution
+
+This project successfully developed and evaluated several machine learning models for predicting fetal health status based on CTG data. The Random Forest model demonstrated the best overall performance, achieving high accuracy and strong generalization on unseen data, indicating its potential as a robust tool for real-time fetal health prediction. The identified key features and the deployed Streamlit interface highlight the feasibility of integrating such an AI-powered predictor into fetal monitoring systems to potentially improve clinical outcomes and resource allocation, especially in underserved regions.
 
 
 
