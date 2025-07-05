@@ -107,7 +107,8 @@ The picture below shows the result of the Streamlit app
 ![Screenshot (28)](https://github.com/user-attachments/assets/6db3c6fd-f47e-4c21-9237-6c091f23685b)
 
 The picture below shows the result of the Flask app
-![image](https://github.com/user-attachments/assets/4d88f996-f784-498b-a566-bcd27d3c77e3)
+![Screenshot (29)](https://github.com/user-attachments/assets/0148d2c5-bd91-49f4-b2a3-a23930bc07fb)
+
 
 
 ✅ Running securely inside Docker
