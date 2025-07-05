@@ -42,8 +42,8 @@ Materials:
   * RandomForestClassifier,     LogisticRegression, SVC, XGBClassifier, DecisionTreeClassifier for modeling.
   * Classification_report, accuracy_score, confusion_matrix, roc_auc_score, roc_curve, ConfusionMatrixDisplay, label_binarize for evaluation metrics.
   * GridSearchCV, cross_val_score, StratifiedKFold, Pipeline for model selection and evaluation.
-* joblib for saving and loading the trained model.
-* streamlit for building the web application interface.
+* Joblib for saving and loading the trained model.
+* Streamlit and Flask for building the web application interface.
 
 Methods:
 
@@ -59,7 +59,8 @@ Methods:
 * A correlation heatmap is generated to show relationships between features.
 3. Feature Importance: A Random Forest model is fitted to the data to determine the importance of each feature. The top 10 most important features are identified.
 4. Data Splitting: The data is split into training and testing sets using train_test_split, with stratification based on the target variable.
-5. Model Training and Evaluation: A function train_and_evaluate is defined to:
+5. The fetal health categories into 3:- Normal (1), Suspect (2), Pathological (3)
+6. Model Training and Evaluation: A function train_and_evaluate is defined to:
 * Perform hyperparameter tuning using GridSearchCV with StratifiedKFold cross-validation.
 * Train the model with the best parameters.
 * Calculate and print training and testing accuracy.
@@ -73,10 +74,10 @@ Methods:
  * Support Vector Machine (features are scaled before training)
  * Decision Tree
 
-6. Model Comparison: The training accuracy, test accuracy, and ROC AUC scores for all trained models are summarized in a table.
-7. Model Validation and Selection: Based on the evaluation metrics, the Random Forest model is selected as the most balanced and robust model.
-8. Model Saving: The selected Random Forest model is saved to a file named random_forest_model.pkl using joblib.
-9. Deployment Interface (Streamlit): A Streamlit application is created to provide a user interface for predicting fetal health status using the saved Random Forest model and the top 10 features as input.
+7. Model Comparison: The training accuracy, test accuracy, and ROC AUC scores for all trained models are summarized in a table.
+8. Model Validation and Selection: Based on the evaluation metrics, the Random Forest model is selected as the most balanced and robust model.
+9. Model Saving: The selected Random Forest model is saved to a file named random_forest_model.pkl using joblib.
+10. Deployment Interface (Streamlit): A Streamlit application is created to provide a user interface for predicting fetal health status using the saved Random Forest model and the top 10 features as input.
 
 what are the Results : MSc students are required to have implemented 100% of their projects using online data
 Based on the results presented in the notebook:
@@ -92,13 +93,8 @@ Key Findings and Model Performance:
 The Random Forest model was selected as the most balanced and robust model, showing good generalization to the test set with a test accuracy of 0.943 and a Macro Average ROC AUC of 0.983. It performed well across all fetal health categories, including the less frequent "Pathological" class.
  * The project identified the top 10 most important features for prediction using a Random Forest model.
 
-Regarding the MSc Requirement for Online Data:
-
-The notebook currently loads the data from a local CSV file (/content/drive/MyDrive/fetal_health.csv). To meet the requirement of using 100% online data for an MSc project, you would need to modify the data loading step to fetch the dataset directly from an online source (e.g., a public repository, a cloud storage URL, or an API) instead of reading it from a local file path.
-
 While the analysis and modeling steps themselves are independent of the data source being local or online, the data acquisition method would need to be adjusted to fulfill that specific requirement.
 
-Let me know if you'd like to explore how you could potentially modify the code to load data from an online source!
 
 DOCUMENTRY
 ✅ A dual-mode AI app (Flask + Streamlit)
