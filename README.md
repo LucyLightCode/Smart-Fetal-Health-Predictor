@@ -106,10 +106,12 @@ DOCUMENTRY
 ![Screenshot (28)](https://github.com/user-attachments/assets/6db3c6fd-f47e-4c21-9237-6c091f23685b)
 
 
-
 ✅ Running securely inside Docker
+
 ✅ With a 1-click smart launcher
+
 ✅ That auto-kills ports & auto-starts Docker
+
 ✅ And it’s 🔥 production-ready!
 
 
